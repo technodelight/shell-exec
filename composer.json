@@ -1,0 +1,29 @@
+{
+    "name": "technodelight/shell-exec",
+    "description": "Assemble commands and execute in shell with PHP easier",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zsolt Gál",
+            "email": "zenc@zenc.hu"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Technodelight\\ShellExec\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shell\\": "features/bootstrap/Shell/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "^4.3",
+        "behat/behat": "^3.4"
+    }
+}
